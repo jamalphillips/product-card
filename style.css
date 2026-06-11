@@ -6,6 +6,9 @@ body {
     font-size: 13px;
     line-height: 18px;
     color: #515076;
+    background-image: url("img/backgroundimage.png");
+    background-position: left top;
+    background-repeat: no-repeat;
 }
 h1 {
     font-size: 70px;
@@ -18,7 +21,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;
+    gap: 25px;
     list-style: none;
   }
 .product-item {
