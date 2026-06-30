@@ -10,56 +10,55 @@ body {
     background-position: left top;
     background-repeat: no-repeat;
 }
-h1 {
+.title {
     font-size: 70px;
     font-weight: 400;
     line-height: 78px;
     text-align: center;
     margin: 0;
 }
-.products-list {
+.products{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
     list-style: none;
   }
-.product-item {
+.products__item {
     width: 340px;
     padding: 25px;
     background: #F7F7FA;
     box-shadow: 2px 2px 10px #5150761A;
 }
-.product-category {
-    width: 400px;
+.card__category {
     font-size: 12px;
     color: #A5A3B9;
     text-transform: uppercase;
 }
-.product-image {
+.card__image {
     width: 290px;
 }
-.product-title {
+.card__title {
     font-size: 20px;
     line-height: 27px;
     font-weight: 700;
 }
-.product-description {
+.card__description {
     font-size: 13px;
     line-height: 18px;
     font-weight: 400;
 }
-.price-block {
+.card__price {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
     font-size: 20px;
     font-weight: 700;
 }
-.product-price {
+.price__value {
     line-height: 24px;
     font-weight: 400;
 }
-.product-composition {
+.compound__list {
     padding-left: 25px;
 }
